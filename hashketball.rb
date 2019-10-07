@@ -307,7 +307,7 @@ instructors.map do |in|
   in[:name]
 end 
 end 
-
+def shoe_size(player_name)
 
 
 
