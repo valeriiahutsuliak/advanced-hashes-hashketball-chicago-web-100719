@@ -308,6 +308,12 @@ instructors.map do |in|
 end 
 end 
 def shoe_size(player_name)
+  players = find_players
+  player = players.find do |p|
+    p[:player_name] ==player_name
+  end
+  player[:shoe]
+end
 
 
 
