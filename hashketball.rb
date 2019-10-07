@@ -285,7 +285,28 @@ def most_rebounds_scored
   end
   return most_points_name
 end 
+# # EXERCISE:
+# # Define a method called get_names that takes an array of instructors
+# # and returns just their names.
+instructors = [
+  {name: 'Noa', hometown: 'Detroit'},
+  {name: 'Duke', hometown: 'Grand Rapids'},
+  {name: 'Sarah', hometwon: 'Sandy Spring'},
+  {name: 'Bruce', hometown: 'Chicago'},
+  {name: 'Nick', hometown: 'Gregory'}
+]
 
+def get_names(instructors)
+  array = []
+  instructors.each do |in|
+    array.push(in[:name])
+
+end
+#array
+instructors.map do |in|
+  in[:name]
+end 
+end 
 
 
 
